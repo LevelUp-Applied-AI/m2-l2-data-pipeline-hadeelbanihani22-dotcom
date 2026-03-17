@@ -12,8 +12,7 @@ The autograder will run your tests as part of the CI check.
 import pandas as pd
 import numpy as np
 import pytest
-from src.pipeline import load_data, clean_data, add_features
-
+from pipeline import load_data, clean_data, add_features
 
 # ─── Test 1 ───────────────────────────────────────────────────────────────────
 
